@@ -1,69 +1,76 @@
+
+/* Meny beskrivningen */
 .menu {
+	/* Position */
   position:fixed;
   top: 20px;
   left: 20px;
   z-index: 9999;
 }
 
+/* Bakggrundsfärg */
 body {
  background-color: #939393;
 }
 
+/* Rubrik centrering */
 h1 {
   text-align: Center
 }
+/* Rubrik färg & storlek */
 .rubrik {
   color: green;
   font-size: 40px;
 }
-
+/* Bild 1 storlek */
 img.bild1 {
   width: 400px;
 }
+/* Bild 2 storlek */
 img.bild2 {
   width: 300px;
 }
-
+/* tabell färg */
 .gul {
   background-color: yellow;
 }
-
+/* tabell färg & textfärg */
 .grön {
   background-color:green;
   color: white;
 }
-
+/* text storlek, färg och ram */
 .text {
   font-size: 27px;
   background-color: yellow;
   border: 1px solid black;
 }
-
+/* Länk ord storlek, färg och ingen understrukning */
 .systemet {
   font-size: 30px;
   background-color: yellow;
   text-decoration: none;
 }
-
+/* Storlek på th och td */
 th, td {
   width: 200px;
 }
-
+/* ram, ihopsättning av ramar och storlek på td, th, tr och table */
 td,th,tr,table {
  border: 1px solid black;
   border-collapse: collapse;
   font-size: 19px;
 }
 
-
+/* p ska vara centrerat */
 p {
   text-align: center;
 }
-
+/* ingen understrukning på systemet */
 .system {
   text-decoration: none;
 }
-
+/* Listan ska vara i mitten, storlek och ha en ram */
 .lista {
   text-align: Center;
   font-size: 20px;
