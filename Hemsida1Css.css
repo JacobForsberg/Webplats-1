@@ -1,0 +1,71 @@
+.menu {
+  position:fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 9999;
+}
+
+body {
+ background-color: #939393;
+}
+
+h1 {
+  text-align: Center
+}
+.rubrik {
+  color: green;
+  font-size: 40px;
+}
+
+img.bild1 {
+  width: 400px;
+}
+img.bild2 {
+  width: 300px;
+}
+
+.gul {
+  background-color: yellow;
+}
+
+.grön {
+  background-color:green;
+  color: white;
+}
+
+.text {
+  font-size: 27px;
+  background-color: yellow;
+  border: 1px solid black;
+}
+
+.systemet {
+  font-size: 30px;
+  background-color: yellow;
+  text-decoration: none;
+}
+
+th, td {
+  width: 200px;
+}
+
+td,th,tr,table {
+ border: 1px solid black;
+  border-collapse: collapse;
+  font-size: 19px;
+}
+
+
+p {
+  text-align: center;
+}
+
+.system {
+  text-decoration: none;
+}
+
+.lista {
+  text-align: Center;
+  font-size: 20px;
+  border: 1px solid black;
+}
